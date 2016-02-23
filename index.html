@@ -24,6 +24,11 @@
         }
         a.git{text-align: left;
         }
+        a.bar{
+            text-decoration: none;
+            font-weight: bold;
+            color: #000000;
+        }
         ul { margin: 0 0 32px 17px; }
         #objective { width: 500px; float: left; }
         #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
@@ -50,7 +55,7 @@
                 Email: <a class="email" href="mailto:dvp236@nyu.edu">dvp236@nyu.edu</a><br />
                 LinkedIn: <a class="linkedin" href="https://www.linkedin.com/in/dvp236">Click me</a>
                 | GitHub: <a class="git" href="https://github.com/dvp236">github.com/dvp236</a>
-                | Resume: <a class="resume" href="images/Resume_d.pdf">Download here</a>
+                | Resume: <a class="resume" href="images/Resume_dp.pdf">Download here</a>
                 
             </p>
         </div>
@@ -65,13 +70,13 @@
         </div>
         
         <div class="clear"></div>
-        
+        <p> <a class="bar" href="#edu">Education &nbsp;&nbsp;&nbsp;&nbsp;</a> <a class="bar" href="#skills">Skills &nbsp;&nbsp;&nbsp;&nbsp;</a> <a class="bar" href="#Projects">Projects &nbsp;&nbsp;&nbsp;&nbsp;</a> <a class="bar" href="#exp">Experience&nbsp;&nbsp;&nbsp;&nbsp;</a> <a class="bar" href="#achie">Achievements&nbsp;&nbsp;&nbsp;&nbsp;</a><a class="bar" href="#achie">References</a></p>
         <dl>
             <dd class="clear"></dd>
             
             <dt>Education</dt>
             <dd>
-                <h2>New York University - Tandon School of Engineering</h2>
+                <h2 id="edu">New York University - Tandon School of Engineering</h2>
                 <h4><span>Master of Science</span></h4>
                 <p><strong>Major:</strong> Computer Science<br />
                    <strong>Minor:</strong> Financial Engineering</p>
@@ -120,7 +125,7 @@
             <dt>Skills</dt>
             <dd>
                 
-                <h2>Keywords</h2>
+                <h2 id="skills">Keywords</h2>
                 <p>Java, Python, SQL, C#, J2EE, JSP, Servlets, Big Data, Map Reduce, AWS, Amazon Web services, HTML/CSS, JavaScript, Django, NoSQL, MongoDB, Redis, Pandas, Database, Data Structures, Algorithms, Linux, Unix, Windows, Mac, Microsoft productivity software (Word, Excel, etc)</p>
             </dd>
             
@@ -128,7 +133,7 @@
             
             <dt>Experience</dt>
             <dd>
-                 <h2>Jr Data Analyst Intern<span>Metricle: Spring '16</span></h2>
+                 <h2 id="exp">Jr Data Analyst Intern<span>Metricle: Spring '16</span></h2>
                 <ul>
                     <p>Metricle is a big data analytics company which leverages machine learning, social network analysis, natural language processing and time series analysis to detect market moving events in real times for the sake of algorithmic trading. </p>
                     <li>Create algorithms to collect the data in an efficient, clean process. Classify data and rank it to generate alerts.</li>
@@ -153,7 +158,7 @@
             <dt>Projects</dt>
             <dd>
                 
-                <h4>Stock Analysis and Recommendation</h4>
+                <h4 id="Projects">Stock Analysis and Recommendation</h4>
                 <p>Designed an engine that analyses more than 3200 stocks prices of last 25 years from yahoo using Hadoop MapReduce. Based on volatility and performance, stocks are ranked. Finally using Twitter data collected using its API and Stanford NLP library, we try to measure the sentiment on the market as well as the stock in particular.</p>
                 <h4>Mini blogs</h4>
                 <p>Developed a scalable web application using J2EE and Amazon RDS where users can read or write based on a trending topic according to their interest. The trends will be taken using twitter API and reddit API. User can also login using Facebook and write ups shown to them will be based on their likes</p>
@@ -173,7 +178,7 @@
              <dd class="clear"></dd>
             <dt>Achievements</dt>
             <dd>
-                <ul>
+                <ul id="achie">
                     <li>
                         Co ordinated India's largest Scientist award ceremony at CITC
                     </li>
